@@ -1,0 +1,16 @@
+[Unit]
+Description=Binance Quant Trading Bot
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/trading-bot
+ExecStart=/bin/bash /opt/trading-bot/run_forever.sh
+Restart=always
+RestartSec=5
+User=root
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target

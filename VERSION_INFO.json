@@ -1,0 +1,13 @@
+{
+  "bundle_created_local": "2026-02-24",
+  "strategy": {
+    "name": "current_live_strategy_option3",
+    "k_sl": 6.0,
+    "rr": [3.0, 2.0, 1.6, 1.2],
+    "trail_trigger_r": 1.5,
+    "trail_k_atr": 2.0,
+    "regime_mult": [0.65, 0.35, 0.40, 0.20],
+    "position_pct": 0.25,
+    "leverage": 10
+  }
+}
